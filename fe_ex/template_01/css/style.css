@@ -2,6 +2,13 @@
   width:1060px;
   height:165px;
   margin:0 auto;
+  padding:71px 0;
+  /*
+  box-sizing:박스 길이 계산 방법 변경
+  1. content-box : width + padding + border => 박스 전체 길이
+  2. border-box : width => 박스 전체 길이
+  */
+  box-sizing:border-box;
 }
 .header:after{
   content:"";
@@ -27,4 +34,23 @@
 
 .gnb-1depth-item{
   float:left;
+  margin-left:100px;
+}
+
+.gnb-1depth-link{
+  font-family: 'Playfair Display', serif;
+  font-size:14px;
+  line-height:24px;
+  color:#626262;
+  text-decoration:none;
+}
+.content-01{
+  width:1060px;
+  margin:0 auto;
+}
+.content-02{
+  width:1060px;
+  margin:100px auto 0;
+  padding:0 85px;
+  text-align:justify;
 }
