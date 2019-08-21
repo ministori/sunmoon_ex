@@ -3,3 +3,28 @@
   height:165px;
   margin:0 auto;
 }
+.header:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.logo{
+  float:left;
+  width:119px;
+  height:23px;
+  background:url(../images/logo.png) no-repeat;
+  text-indent:-99999em;
+}
+.gnb{
+  float:right;
+}
+
+.gnb-1depth:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.gnb-1depth-item{
+  float:left;
+}
