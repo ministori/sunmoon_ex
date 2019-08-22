@@ -52,8 +52,7 @@
 .content-02{
   width:1060px;
   margin:100px auto 0;
-  padding:0 85px;
-  text-align:justify;
+  padding:0 80px;
 }
 
 .category-heading{
@@ -72,16 +71,98 @@
 
 .paragraph{
   line-height:24px;
+  text-align:justify;
 }
 
 .content-03{
   width:1060px;
   margin:45px auto 0;
-  padding:0 85px;
+  padding:0 80px;
 }
 
 .content-04{
   width:1060px;
   margin:0 auto;
-  padding:0 85px;
+  padding:0 80px;
+}
+.content-04:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.img-content{
+  width:420px;
+  margin-top:130px;
+  float:left;
+  margin-right:30px;
+}
+.img-content.even{
+  margin-left:30px;
+  margin-right:0;
+}
+.img-content>img{
+  display:block;
+  margin-bottom:29px;
+}
+
+.content-05{
+  height:287px;
+  margin-top:125px;
+  background:#f0f0f0;
+  border:1px solid transparent;
+}
+
+.paragraph-heading.center{
+  text-align:center;
+  margin-top:73px;
+}
+.content-06{
+  width:1060px;
+  margin:0 auto;
+  padding:0 80px;
+}
+.content-06:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.footer{
+  height:100px;
+  background:#f0f0f0;
+}
+.footer-inner{
+  width:1060px;
+  margin:0 auto;
+}
+.footer-inner:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.footer-list{
+  float:left;
+}
+
+.footer-sns{
+  float:right;
+}
+
+/*
+자식요소에 float을 적용할 때
+부모요소에도 float이 적용되어 있으면
+자식요소의 높이값 자동으로 인식 가능
+*/
+.footer-list-item{
+  float:left;
+}
+.footer-sns-heading{
+  float:left;
+}
+.footer-sns-list{
+  float:left;
+}
+.footer-sns-list-item{
+  float:left;
 }
