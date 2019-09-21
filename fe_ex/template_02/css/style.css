@@ -1,0 +1,15 @@
+.inner{
+  width:1200px;
+  margin:0 auto;
+}
+.header{
+  background:black;
+}
+
+.logo{
+  float:left;
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  font-weight:bold;
+  font-size:30px;
+}
