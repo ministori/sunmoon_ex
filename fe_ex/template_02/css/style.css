@@ -3,7 +3,17 @@
   margin:0 auto;
 }
 .header{
-  background:black;
+  width:100%;
+  height:79px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.header:after{
+  content:"";
+  display:block;
+  clear:both;
 }
 
 .logo{
@@ -12,4 +22,60 @@
   color:#fff;
   font-weight:bold;
   font-size:30px;
+  margin-top:21px;
+}
+
+.gnb{
+  float:right;
+  margin-top:37px;
+}
+
+.gnb-1depth{
+  float:left;
+}
+
+.gnb-1depth-item{
+  float:left;
+  margin-right:55px;
+}
+
+.gnb-1depth-link{
+  color:#fff;
+  font-size:0.875rem;
+  text-decoration:none;
+}
+
+.gnb-util{
+  float:left;
+}
+
+.gnb-util-item{
+  float:left;
+  margin-right:42px;
+}
+
+.gnb-util-item:last-child{
+  margin-right:0;
+}
+
+.gnb-util-link{
+  display:block;
+  width:18px;
+  background:url(../images/icon_sprite_gnb_util.png) no-repeat;
+  text-indent:-99999em;
+}
+
+.gnb-util-link.cart{
+  height:15px;
+  background-position:0 0;
+}
+
+.gnb-util-link.search{
+  height:18px;
+  background-position:-60px 0;
+}
+
+.content-01{
+  height:1000px;
+  background:url(../images/content_01_bg.png) no-repeat center top;
 }
