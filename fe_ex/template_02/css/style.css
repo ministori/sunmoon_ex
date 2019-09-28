@@ -1,6 +1,8 @@
 .inner{
   width:1200px;
   margin:0 auto;
+  position:relative;
+  height:100%;
 }
 .header{
   width:100%;
@@ -190,4 +192,93 @@
 .content-01 .slogan-list li span{
   font-size:24px;
   font-weight:bold;
+}
+
+.section-heading{
+  text-align:center;
+  margin-top:91px;
+}
+
+.section-heading-main{
+  display:block;
+  font-family: 'Kaushan Script', cursive;
+  font-size:24px;
+  color:#333;
+}
+
+.section-heading-sub{
+  display:block;
+  font-family: 'Montserrat', sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  color:#333;
+  margin-top:10px;
+  text-transform:uppercase;
+  margin-bottom:22px;
+}
+
+.section-heading:after{
+  content:"";
+  display:inline-block;
+  width:60px;
+  height:3px;
+  background:#f38181;
+}
+
+.section-heading-paragraph{
+  margin-top:41px;
+}
+
+.section-content{
+  margin-top:85px;
+}
+
+.content-02 .image-item{
+  width:380px;
+  height:250px;
+  float:left;
+  margin-right:30px;
+}
+
+.content-02 .image-item:last-child{
+  margin-right:0;
+}
+
+.content-02 .image-item .image-item-spec{
+  position:relative;
+  top:-10px;
+  left:-10px;
+}
+
+.content-02{
+  padding-bottom:110px;
+}
+
+.content-03{
+  background:#95e1d3;
+}
+
+.content-03 .count-item{
+  width:20%;
+  float:left;
+  color:#fff;
+  padding:87px 0 89px;
+  border-left:1px solid rgba(255,255,255,0.3);
+  text-align:center;
+}
+
+.content-03 .count-item:last-child{
+  border-right:1px solid rgba(255,255,255,0.3);
+}
+
+.content-03 .count-item-number{
+  font-family: 'Montserrat', sans-serif;
+  font-size:72px;
+  font-weight:bold;
+}
+
+.content-03 .count-item-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  text-transform: uppercase;
 }

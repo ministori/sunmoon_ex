@@ -53,8 +53,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
 /*
 font-family: 'Montserrat', sans-serif;
-font-family: 'Kaushan Script', cursive;
+font-family: 'Kaush an Script', cursive;
 font-family: 'Roboto', sans-serif;
 */
