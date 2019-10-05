@@ -282,3 +282,66 @@
   font-size:14px;
   text-transform: uppercase;
 }
+
+.content-04 .work-list-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+}
+
+.content-04 .work-list-data{
+  font-family: 'Roboto', sans-serif;
+  font-size:15px;
+  line-height:24px;
+  margin-top: 10px;
+}
+
+.work-list{
+  width:330px;
+  position:relative;
+  padding-left:60px;
+  float:left;
+  margin-right:75px;
+}
+.work-list:before{
+  content:"";
+  display:block;
+  width:32px;
+  height:32px;
+  background:url(../images/icon_sprite_01.png) no-repeat;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.work-list:nth-child(1):before{
+  background-position:0px 0px;
+}
+
+.work-list:nth-child(2):before{
+  background-position:-42px 0px;
+}
+
+.work-list:nth-child(3):before{
+  background-position:-84px 0px;
+}
+
+.work-list:nth-child(4):before{
+  background-position:0px -42px;
+}
+
+.work-list:nth-child(5):before{
+  background-position:-41px -42px;
+}
+
+.work-list:nth-child(6):before{1
+  background-position:-84px -42px;
+}
+
+.content-04 .section-content{
+  padding:0 30px;
+}
+
+.work-list:nth-child(3), .work-list:nth-child(6){
+  margin-right:0;
+}
