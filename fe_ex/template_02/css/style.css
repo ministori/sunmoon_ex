@@ -345,3 +345,40 @@
 .work-list:nth-child(3), .work-list:nth-child(6){
   margin-right:0;
 }
+
+.content-05:before{
+  content:"";
+  display:block;
+  width:477px;
+  height:582px;
+  background:url(../images/content_05_item_01.png) no-repeat;
+  position:absolute;
+  bottom:0px;
+  left:50%;
+  margin-left:-239px;
+}
+
+.content-05:after{
+  content:"";
+  display:block;
+  width:275px;
+  height:476px;
+  background:url(../images/content_05_item_02.png) no-repeat;
+  position:absolute;
+  bottom:-90px;
+  left:50%;
+  margin-left:123px;
+}
+
+.content-05{
+  height:850px;
+  background:url(../images/content_05_bg.png) no-repeat center;
+  position:relative;
+  padding-top:14px;
+}
+
+.content-01, .content-02, .content-03, .content-04, .content-05,
+.content-06, .content-07, .content-08, .content-09, .content-10,
+.content-11, .content-12, .content-13, .content-14, .content-15{
+  min-width:1200px;
+}
