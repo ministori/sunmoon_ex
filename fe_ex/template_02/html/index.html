@@ -6,6 +6,16 @@
   <link rel="stylesheet" href="../css/style.css" />
   <title>MOGO</title>
   <meta charset="utf-8" />
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script>1
+    function accBtn(thisNode){
+      $('.service-list-item').removeClass('on');
+      $(thisNode).addClass('on');
+    }
+  </script>
 </head>
 <body>
 <header class="header">
@@ -152,22 +162,28 @@
     <p class="section-heading-paragraph">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
-    <div class="clearfix">
+    <div class="section-content clearfix">
       <div class="service-image">
-        <img src="" />
+        <img src="../images/content_06_item_01.png" alt="image" />
       </div>
       <div class="service-list">
-        <dl class="service-list-item">
+        <dl class="service-list-item on" onclick="accBtn(this)">
           <dt>Photography</dt>
           <dd>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </dd>
         </dl>
-        <dl class="service-list-item">
+        <dl class="service-list-item" onclick="accBtn(this)">
           <dt>Photography</dt>
+          <dd>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </dd>
         </dl>
-        <dl class="service-list-item">
+        <dl class="service-list-item" onclick="accBtn(this)">
           <dt>Photography</dt>
+          <dd>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </dd>
         </dl>
       </div>
     </div>
@@ -178,7 +194,9 @@
     <div class="clearfix">
       <div class="icon-paragraph-01">
         <p>
-          “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+          “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/>
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br/>
+          veniam, quis nostrud exercitation.”
         </p>
         <div class="icon-paragraph-name">Jon Doe</div>
       </div>
@@ -194,23 +212,23 @@
     <p class="section-heading-paragraph">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
-    <div class="clearfix">
+    <div class="section-content clearfix">
       <div class="image-item">
-        <img src="../images/content_02_item_01.png" alt="이미지" />
+        <img src="../images/content_08_item_01.png" alt="이미지" />
         <div class="image-item-info">
           <div class="info-name">Matthew Dix</div>
           <div class="info-major">Graphic Design</div>
         </div>
       </div>
       <div class="image-item">
-        <img src="../images/content_02_item_02.png" alt="이미지" />
+        <img src="../images/content_08_item_02.png" alt="이미지" />
         <div class="image-item-info">
           <div class="info-name">Christopher Campbell</div>
           <div class="info-major">Branding/UX design</div>
         </div>
       </div>
       <div class="image-item">
-        <img src="../images/content_02_item_03.png" alt="이미지" />
+        <img src="../images/content_08_item_03.png" alt="이미지" />
         <div class="image-item-info">
           <div class="info-name">Michael Fertig</div>
           <div class="info-major">Developer</div>
