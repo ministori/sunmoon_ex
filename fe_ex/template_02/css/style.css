@@ -565,6 +565,35 @@
   margin-right:0;
 }
 
+.content-08 .image-item:first-child{
+  position:relative;
+  top:-10px;
+}
+
+.content-08 .image-item-info .info-name{
+  text-transform:uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  color:#333;
+}
+
+.content-08 .image-item-info{
+  margin-top:23px;
+  text-align:center;
+}
+
+.content-08 .image-item-info .info-major{
+  font-family: 'Roboto', sans-serif;
+  font-size:15px;
+  font-style:italic;
+  line-height:24px;
+  font-weight:300;
+}
+
+.content-08{
+  padding-bottom:110px;
+}
+
 
 
 
