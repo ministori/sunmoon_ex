@@ -594,6 +594,43 @@
   padding-bottom:110px;
 }
 
+.content-09{
+  height:250px;
+  background:#f8f8f8;
+  padding-top:62px;
+}
+
+.content-09 .item-logo-wrap{
+
+}
+
+.content-09 .item-logo{
+  display:block;
+  float:left;
+  margin-right:106px;
+  position:relative;
+}
+
+.content-09 .item-logo:nth-child(1){
+  top:8px;
+}
+
+.content-09 .item-logo:nth-child(2){
+  top:16px;
+}
+
+.content-09 .item-logo:nth-child(4){
+  top:17px;
+}
+
+.content-09 .item-logo:nth-child(5){
+  top:4px;
+}
+
+.content-09 .item-logo:last-child{
+  margin-right:0;
+}
+
 
 
 
