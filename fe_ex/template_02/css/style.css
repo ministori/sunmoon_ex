@@ -537,7 +537,6 @@
   height:290px;
   background:#f8f8f8;
   padding-top:70px;
-  padding-left:110px;
 }
 
 .icon-paragraph-01:before{
@@ -554,6 +553,7 @@
 .icon-paragraph-01{
   padding-left:200px;
   position:relative;
+  margin-left:110px;
 }
 
 .content-08 .image-item{
@@ -629,6 +629,23 @@
 
 .content-09 .item-logo:last-child{
   margin-right:0;
+}
+
+.content-10 .gallery:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.content-10 .gallery-wrap{
+  width:50%;
+  float:left;
+}
+
+.content-10 .gallery-image{
+  display:block;
+  float:left;
+  width:50%;
 }
 
 
